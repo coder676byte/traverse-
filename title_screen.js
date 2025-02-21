@@ -1,4 +1,6 @@
 export function title() {
     let titleScreen = document.getElementById("Title_screen");
     let button = document.getElementById("start");
-    button.style.visibility = "hidden"}
+    button.addEventListener("click",function() {
+        titleScreen.style.visibility = "hidden";
+    })}
