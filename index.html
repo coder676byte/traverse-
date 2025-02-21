@@ -19,23 +19,42 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      background-color: #000033;  /* A slightly darker shade than darkblue */
+      background-color: #000033;
       width: 100vw;
       height: 100vh;
     }
     /* Title text styling with a larger font size */
     h1 {
-      font-size: 120px;         /* Increased font size for a larger title */
+      font-size: 120px;
       color: white;
-      margin-top: 15vh;         /* Positions the title in the upper third of the screen */
+      margin-top: 15vh;
       font-weight: bold;
       letter-spacing: 5px;
     }
+    #start {
+      background-color: orange;
+      color: white;
+      font-size: 80px;
+      justify-content: center;
+      width: max-content;
+    }
   </style>
+  
 </head>
 <body>
   <div id="Title_screen">
     <h1>TRAVERSE</h1>
+    <button id="start">start game</button>
   </div>
+  
+  <!-- Load main.js as an ES6 module -->
+<script>
+  function title() {
+    console.log("programme exicuted");
+    let titleScreen = document.getElementById("Title_screen");
+    let button = document.getElementById("start");
+    button.style.visibility = "hidden"}
+
+</script>
 </body>
 </html>
