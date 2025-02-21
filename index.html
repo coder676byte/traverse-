@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Title Screen</title>
+  <style>
+    /* Ensure that the html and body elements cover the full viewport */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    /* Title screen container styling with a darker background */
+    #Title_screen {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #000033;  /* A slightly darker shade than darkblue */
+      width: 100vw;
+      height: 100vh;
+    }
+    /* Title text styling with a larger font size */
+    h1 {
+      font-size: 120px;         /* Increased font size for a larger title */
+      color: white;
+      margin-top: 15vh;         /* Positions the title in the upper third of the screen */
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="Title_screen">
+    <h1>TRAVERSE</h1>
+  </div>
+</body>
+</html>
