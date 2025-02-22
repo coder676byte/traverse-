@@ -6,3 +6,5 @@ export function title(click) {
       }
   );
 }
+
+title(1)
