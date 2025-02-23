@@ -4,6 +4,7 @@ export function title(click) {
   titleScreen.style.visibility = "hidden"
   button.addEventListener("click", function() {
     titleScreen.style.visibility = "hidden";
+    console.log("runing")
       }
   );
 }
