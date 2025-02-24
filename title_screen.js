@@ -1,11 +1,9 @@
-export function title(click) {
-  let titleScreen = document.getElementById("Title_screen");
-  let button = document.getElementById("start");
-  titleScreen.style.visibility = "hidden"
-  button.addEventListener("click", function() {
+function title(click) {
+  console.log("test");
+  const titleScreen = document.getElementById("Title_screen");
+  const button = document.getElementById("start");
+  
+  button.addEventListener("click", function start() {
     titleScreen.style.visibility = "hidden";
-    console.log("runing")
-      }
-  );
+  });
 }
-
